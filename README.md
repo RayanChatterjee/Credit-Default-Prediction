@@ -2,11 +2,11 @@
 Credit Default Prediction – A Quantitative Risk Modeling Approach
 # 🧠 Credit Default Prediction using Logistic Regression
 
-This project applies a full **credit risk modeling pipeline** to the Kaggle "Give Me Some Credit" dataset, simulating challenges faced in **quantitative risk management**. It combines data preprocessing, model development, interpretability, and performance improvement techniques relevant to real-world risk modeling tasks.
+This project applies a full **credit risk modeling pipeline** to the Kaggle "Give Me Some Credit" training dataset, simulating challenges faced in **quantitative risk management**. It combines data preprocessing, model development, interpretability, and performance improvement techniques relevant to real-world risk modeling tasks.
 
 ## 🗂️ Dataset
 - **Source**: [Give Me Some Credit – Kaggle](https://www.kaggle.com/datasets/c/GiveMeSomeCredit)
-- **Objective**: Predict the probability of serious delinquency (default) within two years.
+- **Objective**: Develop a predictive model to estimate the probability of serious delinquency (credit default) and gain insights into the relative contribution of key features driving default risk.
 
 ---
 
@@ -36,7 +36,7 @@ This project applies a full **credit risk modeling pipeline** to the Kaggle "Giv
 
 | Model Stage                    | ROC-AUC | F1 Score | Precision | Recall  |
 |-------------------------------|---------|----------|-----------|---------|
-| Scaled Data (No Resampling)   | 0.693   | 0.072    | 0.52      | 0.014   |
+| Scaled Data (No Resampling)   | 0.693   | 0.072    | 0.52      | 0.04   |
 | VIF-Filtered Features          | 0.665   | 0.028    | 0.52      | 0.014   |
 | After SMOTE Resampling         | **0.755** | **0.672**  | **0.696**   | **0.650** |
 
